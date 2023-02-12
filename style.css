@@ -1,0 +1,106 @@
+/*Resetar formtações*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*Area cabeçalho*/
+#area-cabecalho{
+    text-align: center;
+    background: orange;
+    width: 100%;
+    padding: 30px;
+ 
+}
+
+#area-logo{
+    font-size: 1.3em;
+    margin-bottom: 15px;
+    color: #4e4e4e;
+}
+
+
+#area-menu a{
+    padding: 10px;
+    margin: 5px;
+    color: #fff;
+}
+
+#area-menu a:hover{
+    color: rgb(255, 174, 0);
+    background: #fff;
+}
+
+/*postagens*/
+#area-postagem{
+    width: 880px;
+    margin: 15px auto;
+}
+
+
+
+/*Area central*/
+#area-central{
+    float: left;
+    width: 640px;
+
+}
+
+#area-rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: rgb(167, 164, 164);
+}
+
+.postagem{
+    background: #fff;
+    padding: 17px;
+    margin-bottom: 20px;
+}
+
+img{
+    width: 600px;
+}
+
+.data{
+    font-size: 0.8em;
+    margin-bottom: 17px;
+}
+
+/*Area lateral*/
+#area-lateral{
+    float: right;
+    width: 220px;
+}
+
+
+.postagem-lateral{
+    font-size: 0.8em;
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.postagem-lateral h3{
+    font-size: 1.5em;
+    background: #838080;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+
+/*Formtações gerais*/
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: rgb(201, 198, 198);
+}
+
+a{
+    text-decoration: none;
+}
+
+.branco{
+    color: #fff;
+}
